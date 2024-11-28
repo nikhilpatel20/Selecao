@@ -6,7 +6,9 @@
 
 #nav_link {
     display: flex;
-    justify-content: space-between; /* Align items properly */
+    justify-content: space-between;
+    /* Align items properly */
+    /* justify-content: center; */
     position: fixed;
     width: 100%;
     padding: 20px;
@@ -15,11 +17,14 @@
     background-color: rgb(60, 59, 59);
     color: white;
     font-family: Arial, sans-serif;
+    font-family: "Dancing Script", cursive;
 }
 
 .font {
     font-size: 45px;
-    margin-left: 25px; /* Align logo to the left */
+    margin-left: 25px;
+    /* Align logo to the left */
+
 }
 
 #nav_link li a {
@@ -34,7 +39,7 @@
     transition: 0.3s;
 }
 
-.nav_link1 li a:hover {
+#nav_link .nav_link1 li a:hover {
     color: violet;
 }
 
