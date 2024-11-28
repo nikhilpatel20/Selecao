@@ -37,10 +37,16 @@
     font-size: 30px;
     color: aliceblue;
     transition: 0.3s;
+    
 }
 
 #nav_link .nav_link1 li a:hover {
-    color: violet;
+    color: rgb(251, 249, 251);
+    border: solid #ef6603 ;
+   border-radius: 30px;
+   background-color: #ef6603;
+   border-width: 10px;
+  
 }
 
 .nav_link1 {
